@@ -10,5 +10,5 @@ $ tar xJvf riscv32-sdk-x86_64.tar.xz
 Binaries will be extracted to `riscv32-sdk-x86_64` directory and located in the `bin` sub-directory
 
 ## Pulpino utility applications
-- `s19toslm.py` : utility to convert `.s19` binaries to `spi_stim.txt` file
+- `s19toslm.py` : utility to convert a `.s19` binary to a `spi_stim.txt` file
 - `spiload`: utility to be copied to the Linux rootfs running on the zedboard. It is used to load the `spi_stim.txt` firmware in the pulpino core.
